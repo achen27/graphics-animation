@@ -152,8 +152,9 @@ def run(filename):
 
         if anim:
             # print(frames)
-            for frame in frames[f]:
-                symbols[frame][1] = frames[f][frame]
+            for knob in frames[f]:
+                # print(knob)
+                symbols[knob][1] = frames[f][knob]
                 # print symbols[frame]
 
         for command in commands:
